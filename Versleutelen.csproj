@@ -70,6 +70,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest">
       <SubType>Designer</SubType>
@@ -87,6 +88,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="alfabetEen.txt" />
+    <None Include="Resources\ra4.txt" />
+    <None Include="Resources\ra3.txt" />
+    <None Include="Resources\ra2.txt" />
+    <None Include="Resources\ra1.txt" />
+    <None Include="Resources\alfabetTwee.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
